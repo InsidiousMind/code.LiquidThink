@@ -5,7 +5,7 @@ This is the source of code.liquidthink.net, a site where I share my current or r
 This will significantly unclutter LiquidThink and create clearer goals and niches for each sites.
 
 Here, I post on basically...just programming. Python, C, C++, Java, hell even Assembly. Anything that i'm really doing, or am planning to do, is going on this site :)
-This will also include my portfolio and past history with coding, since I think it would be a great way to map my progres.
+This will also include my portfolio and past history with coding, since I think it would be a great way to map my progress.
 
 A Little about me... I am interested in everything programming, hacking, or Lovecraft (probably a bit too much for my own good). This blog is about all theoretical nerdy-geeky stuff to do with technology. If you’re more into technical nerdy stuff, check out The Cyber Cult my other blog! If you want to know more, you can head over to my About Page.
 
