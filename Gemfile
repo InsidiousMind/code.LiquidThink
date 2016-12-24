@@ -6,6 +6,8 @@ group :jekyll_plugins do
   gem 'jekyll-gist'
   gem 'jekyll-watch'
   gem 'jekyll-assets'
+  gem 'uglifier'
+  gem 'sass'
   gem 'kramdown'
   gem 'rouge'
 end

@@ -2,8 +2,23 @@
 <html>
   <head>
     {% include meta.html %}
-      <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
-      {% include css.html %}
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+    {% include css.html %}
+
+    {% css bootstrap-material-design %}
+
+    <!-- syntax highlighting CSS -->
+    {% css syntax %}
+
+    <!-- Custom CSS -->
+    {% css thickbox %}
+    {% css main %}
+    {% css projects %}
+
+    <script type="text/javascript">
+        //loadingImage is relative to project dir
+        var tb_pathToImage = "{{ site.baseurl }}/assets/img/loadingAnimation.gif";
+    </script>
   </head>
 
   <body class="home overflow-hidden">
