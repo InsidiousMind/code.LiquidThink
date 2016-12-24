@@ -67,3 +67,4 @@ gems:
   - jekyll-paginate
   - jekyll-gist
   - jekyll-assets
+  - jekyll-watch
