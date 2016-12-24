@@ -8,7 +8,7 @@
 title: code.liquid_think
 description: "Here, I post on basically...just programming. Python, C, C++, Java, hell even Assembly. Anything that i'm really doing, or am planning to do, is going on this site"
 author: Andrew Plaza
-github: https://github.com/ashutosh2k12
+github: https://github.com/InsidiousMind
 about: Student
 
 baseurl: ""
@@ -32,9 +32,9 @@ markdown: kramdown
 
 assets:
   compress:
-    css: true
-    js: true
-  
+    css: sass
+    js: uglifier
+
   autowrite: true
   cache: .asset-cache
   cache_type: filesystem
@@ -50,12 +50,10 @@ assets:
 
   sources:
     - _assets/css
-    - _assets/images
-    - _assets/javascripts
-    - _assets/stylesheets
     - _assets/fonts
     - _assets/img
     - _assets/js
+    - _assets/projects
 
   features:
     liquid: false
@@ -65,7 +63,7 @@ assets:
 
 exclude: [.asset-cache]
 
-gems: 
+gems:
   - jekyll-paginate
   - jekyll-gist
   - jekyll-assets
