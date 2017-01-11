@@ -5,9 +5,9 @@ export default class Default extends Component {
     return (
       <html lang="en">
         {'{% include head.html %}'}
-          <body>
-            <div id="root" />
+        <body>
             { '{{ content }}'}
+            <div id="root" />
           </body>
           {'{% js bundle %}'}
       </html>
