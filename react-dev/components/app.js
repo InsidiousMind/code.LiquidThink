@@ -35,10 +35,11 @@ const muiTheme = getMuiTheme(darkBaseTheme, {
   },
   appBar: {
     height: 100
-  },
+  }
   });
 
-export const App = (props) => (
+export const App = (props) => {
+ return (
   <div>
     <MuiThemeProvider muiTheme={muiTheme}>
       <div>
@@ -50,3 +51,4 @@ export const App = (props) => (
     </MuiThemeProvider>
   </div>
 );
+};
