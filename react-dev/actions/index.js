@@ -5,7 +5,7 @@ export const FETCH_PAGE = 'FETCH_PAGE';
 export const FETCH_POSTS = 'FETCH_POSTS';
 export const FETCH_SITE_INFO = 'FETCH_SITE_INFO';
 
-const ROOT_URL = 'https://code-liquidthink.netlify.com/';
+const ROOT_URL = 'http://code.liquidthink.net';
 const POSTS = '/api/v1/pages.json';
 const SITE_INFO = '/api/v1/config.json';
 
