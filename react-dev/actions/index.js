@@ -6,7 +6,7 @@ export const FETCH_POSTS = 'FETCH_POSTS';
 export const FETCH_SITE_INFO = 'FETCH_SITE_INFO';
 export const FETCH_PROJECTS = 'FETCH_PROJECTS';
 
-const ROOT_URL = 'http://test_domain.com:4000';
+const ROOT_URL = 'http://code.liquidthink.net';
 const API_URL = '/api/v1/';
 
 const postsRequest = axios.get(`${ROOT_URL}${API_URL}pages.json`);
