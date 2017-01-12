@@ -281,11 +281,30 @@ pre {
 
 
 .post-meta {
+  font-size: 14px;
+  color: #828282;
   display: flex;
   flex-wrap: wrap;
   line-height: 5px;
   text-align: left;
   margin-bottom: 20px;
+
+  > time {
+    display: inline-block;
+  }
+
+  > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
+  > ul > li {
+    float: left;
+    margin-right: 4px;
+    padding-bottom: 14px;
+    line-height: 14px;
+  }
 }
 
 
@@ -330,4 +349,23 @@ pre {
   @include media-query($on-laptop) {
     padding-left: 240px;
   }
+}
+
+.right-menu-bar {
+  padding-right: 20px;
+  @include media-query($on-laptop) {
+    padding-right: 0px;
+  }
+  > div {
+    position: relative;
+  }
+}
+
+.social-media-list {
+  position: relative;
+  display: flex;
+  float: right;
+  height: auto;
+  width: auto;
+
 }
