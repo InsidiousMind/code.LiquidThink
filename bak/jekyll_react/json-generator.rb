@@ -6,6 +6,7 @@ require_relative 'render.rb'
 module Jekyll
   
   # https://github.com/jekyll/jekyll-sitemap/blob/v0.7.0/lib/jekyll-sitemap.rb#L3-L8
+  # inspired by https://github.com/18F/jekyll_pages_api
   class PageWithoutAFile < Page
     def read_yaml(*)
       @data ||= {}
@@ -23,6 +24,7 @@ module Jekyll
       config_json = config.to_json
       new_page('config.json', config_json, self.dest_dir)
       parse_pages
+      parse_data
     end
     
     def parse_pages
@@ -36,6 +38,12 @@ module Jekyll
           new_page(name, page_json, page.url)
           page.content = ''
         end
+      end
+    end
+    
+    def parse_data
+      @site.data.each do |site_file|
+        new_page("#{site_file[0]}.json", site_file.to_json, self.dest_dir)
       end
     end
 
