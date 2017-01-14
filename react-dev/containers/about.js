@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 
 import { fetchPage } from '../actions/index';
 
-import { Page } from './page';
+import { Page } from '../components/page';
 
 class About extends Component {
 
