@@ -26,12 +26,12 @@ class PostsIndex extends Component {
   }
 
   getDate(dateString) {
-    const date = new Date(dateString);
+    const date = new Date(dateString.split(' ')[0]);
     return date.toDateString();
   }
 
   getCategories(categories) {
-    return categories.map((cat) => { return `${cat} `; });
+    return categories.map((cat) => `${cat} `);
   }
 
   styles = {
@@ -53,12 +53,10 @@ class PostsIndex extends Component {
   }
 
   renderChips(data) {
-    return data.map((tag) => {
- return (<Chip key={tag} style={this.styles.chip}>
+    return data.map((tag) => (<Chip key={tag} style={this.styles.chip}>
         {tag}
       </Chip>
-    );
-});
+    ));
   }
   renderPosts() {
     if (_.isEmpty(this.props.posts)) {

@@ -9,8 +9,8 @@ module.exports = {
 
   entry: './react-dev/router.js',
 
-  devtool: 'cheap-module-source-map',
-  //devtool: 'eval',
+  //devtool: 'cheap-module-source-map',
+  devtool: 'eval',
   // webpack folder's entry js - excluded from jekll's build process.
 
   output: {
@@ -41,9 +41,8 @@ module.exports = {
        ],
       plugins: [
         new webpack.DefinePlugin({ 
-          'process.env.NODE_ENV': '"production"'
+          'process.env.NODE_ENV': '"development"'
         }),
-        new webpack.optimize.UglifyJsPlugin(),
         new BundleAnalyzerPlugin({
           analyzerMode: 'server',
           analyzerPort: 8880

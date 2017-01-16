@@ -6,8 +6,8 @@ import { connect } from 'react-redux';
 import AppBar from 'material-ui/AppBar';
 import { fetchSiteInfo } from '../actions/index';
 
-import Menu from './menu';
-import { RightBar } from './right_menu_bar';
+import Menu from '../components/menu';
+import { RightBar } from '../components/right_menu_bar';
 
 class Header extends Component {
 

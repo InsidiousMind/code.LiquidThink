@@ -4,9 +4,8 @@ import { connect } from 'react-redux';
 
 import _ from 'lodash';
 
-import { Card, CardActions, CardHeader, CardMedia, CardTitle, CardText } from 'material-ui/Card';
+import { Card, CardHeader, CardMedia, CardTitle, CardText } from 'material-ui/Card';
 import Masonry from 'react-masonry-component';
-import { Grid } from 'react-flexbox-grid/lib/index';
 
 import { fetchProjects, fetchSiteInfo } from '../actions/index';
 
@@ -37,18 +36,18 @@ class ProjectsIndex extends Component {
   }
 
   renderProjects() {
-    return this.props.projects[1].map((project) => {
- return (
+    return this.props.projects[1].map((project) => (
         <div className="masonry-content" key={project.title}>
-          <Card>
-              {this.getAuthorHeader(project)}
-              {this.getMedia(project)}
-            <CardTitle title={project.title} subtitle={project.subtitle} />
-            <CardText> {project.description} </CardText>
-          </Card>
+          <a href={project.homepage}>
+            <Card>
+                {this.getAuthorHeader(project)}
+                {this.getMedia(project)}
+              <CardTitle title={project.title} subtitle={project.subtitle} />
+              <CardText> {project.description} </CardText>
+            </Card>
+        </a>
         </div>
-      );
-});
+      ));
   }
 
   render() {

@@ -4,8 +4,8 @@ import Paper from 'material-ui/Paper';
 import { connect } from 'react-redux';
 
 import { fetchSiteInfo } from '../actions/index';
-import { SocialMediaList } from './social_media_list';
-import SignupForm from './signup_form';
+import { SocialMediaList } from '../components/social_media_list';
+import SignupForm from '../components/signup_form';
 
 class Footer extends Component {
   componentWillMount() {
