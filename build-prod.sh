@@ -4,4 +4,4 @@ bundle install &&
 bundle update &&
 npm run build &&
 ./generate-static.sh &&
-bundle exec jekyll serve
+bundle exec jekyll build
