@@ -1,16 +1,18 @@
-import React, { Component } from 'react';
+import React, { Component, Children, cloneElement } from 'react';
 
 //MUI React Library
-import {
-  green900, green500,
+import { //dark theme
+  green900, green500, green800,
   teal900, teal500,
   blueGrey800,
   grey50,
-  cyan500
-} from 'material-ui/styles/colors'; //greens
+  cyan500,
+  //light theme
+  brown500,
+  grey300, grey400
+} from 'material-ui/styles/colors'; //dark theme
 
 import darkBaseTheme from 'material-ui/styles/baseThemes/darkBaseTheme';
-import lightBaseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import injectTapEventPlugin from 'react-tap-event-plugin';
@@ -36,17 +38,33 @@ const darkMuiTheme = getMuiTheme(darkBaseTheme, {
   },
   appBar: {
     height: 100
+  },
+  toggle: {
+    thumbDisabledColor: green900,
+    trackOffColor: blueGrey800,
+    trackOnColor: green900,
+    trackDisabledColor: green800,
+    thumbOnColor: green900
   }
 });
 
-const lightMuiTheme = getMuiTheme(lightBaseTheme, {
-  pallete: {
-    primary1Color: grey50,
-    primatry2Color: grey50,
-    primary3Color: grey50
-  },
+const lightMuiTheme = getMuiTheme(null, {
   appBar: {
-    height: 100
+    height: 100,
+    color: teal500
+  },
+  toggle: {
+    thumbDisabledColor: green900,
+    trackOffColor: blueGrey800,
+    trackOnColor: green900,
+    trackDisabledColor: green800,
+    thumbOnColor: green900
+  },
+  paper: {
+    backgroundColor: grey300
+  },
+  chip: {
+    backgroundColor: grey400
   }
 });
 
@@ -55,6 +73,7 @@ export default class App extends Component {
     super(props);
     this.state = { dark: true };
   }
+
   shouldComponentUpdate(nextState) {
     if (this.state.dark !== nextState.dark) {
       return true;
@@ -65,12 +84,17 @@ export default class App extends Component {
     if (this.state.dark) {
       return darkMuiTheme;
     }
+    console.log(lightMuiTheme);
     return lightMuiTheme;
   }
 
   handleToggle = () => {
     this.setState({ dark: !this.state.dark });
   }
+  //modify children prop with theme state so that it re-renders on-screen
+  renderChildren = () => Children.map(this.props.children, (child) => cloneElement(child, [{
+        themeState: this.state.dark
+      }]));
 
   render() {
     return (
@@ -78,8 +102,8 @@ export default class App extends Component {
         <MuiThemeProvider muiTheme={this.getTheme()}>
           <div>
             <Header location={this.props.location} handleThemeSwitch={this.handleToggle}>
-              {this.props.children}
-            <Footer />
+              {this.renderChildren()}
+            <Footer themeState={this.state.dark} />
           </Header>
           </div>
         </MuiThemeProvider>
