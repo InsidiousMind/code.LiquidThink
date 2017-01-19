@@ -1,7 +1,7 @@
 - title: Liquid Think
   subtitle: Rantings of a Nerdy Lunatic
   homepage: http://www.liquidthink.net
-  image: static/img/LQ_logo.png
+  cardImage: static/img/LQ_logo.png
   date: 2013-2017
   tags:
   - blog
@@ -11,17 +11,31 @@
   - nerdy
   description: A blog where I talk about everything fomr Lovecraft to new technology and programming. Not anything too technical here, that goes on code.liquid_think
 
-- title: Code.Liquid_Think
-  subtitle: This Site!
-  homepage: http://www.github.com/InsidiousMind/code.LiquidThink
-  image: static/img/code-liquidthink.png
+- homepage: http://www.github.com/InsidiousMind/code.LiquidThink
+  cardImage: static/img/code-liquidthink.png
+  cardTitle: Code.Liquid_Think
+  cardSubtitle: this site!
   date: Jan 2017-Present
   tags:
   - project
   - React
   - Javascript
   - Jekyll
-  description: This blog where I post on just programming. Python, C, C++, Java, hell even Assembly. Anything that i'm really doing, or am planning to do, is going on this site. This will also include my portfolio and past history with coding, a great way to map my progress
+  description: This blog where I post on just programming. Anything that i'm really doing, or am planning to do, is going on this site. The source code and theme of this site is my Material Bliss Theme
+- title: Material Bliss theme
+  subtitle: Theme for Jekyll built with React.js
+  homepage: https://github.com/InsidiousMind/material-bliss-jekyll-theme
+  date: Dec 2016-Present
+  tags:
+  - Javascript
+  - React
+  - CSS/HTML
+  - Jekyll
+  - Ruby
+  description: The theme of this site that is under continual development.
+  author: Andrew Plaza
+  author_tag: ''
+  avatar: true
 
 - title: Gomoku
   subtitle: A Networked Client+Server Retro Game
@@ -52,9 +66,10 @@
 - author: Andrew Plaza, Joe LoManto, Ryan Corcoran
   author_tag: Hackathon Group Project
   avatar: true
-  title: LeapDuel
   homepage: https://github.com/YourNerdyJoe/leapduel
-  image: static/img/leapduel.jpg
+  cardImage: static/img/leapduel.jpg
+  cardTitle: LeapDuel
+  cardSubtitle: Cardgame buitl with LeapMotion at hackPSU2016
   date: Nov 12, 2016
   tags:
   - C++
@@ -63,13 +78,3 @@
   - Yugioh
   - HackPSU
   description: An awesome throw-back to Yugioh using the LeapMotion Controller, a modern twist on a retro piece of nostalgia we remembered from our childhoods.
-
-- author: Andrew Tanenbaum
-  author_tag: I'm pretty good at building OS stuff
-  avatar: true
-  title: MINIX
-  subtitle: I'm doing really well with cool projects, aren't I?!
-  homepage: http://www.github.com/InsidiousMind
-  image: static/img/placeholder.jpg
-  date: Jan 2017
-  description: Hey! Did you know this is a masonry layout built with flexbox? You can reorder this section to your hearts content!
