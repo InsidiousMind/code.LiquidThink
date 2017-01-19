@@ -7,4 +7,5 @@ Here, I post on basically...just programming. Python, C, C++, Java, hell even As
 
 A little about me... I am interested in everything programming, hacking, or Lovecraft (probably a bit too much for my own good). This blog is about all geeky programming stuff.
 
-If you're interested in the theme of this site, checkout [The Free Theme](https://github.com/InsidiousMind/material-bliss-jekyll-theme)
+If you're interested in the theme of this site, checkout [The Material Bliss Theme](https://github.com/InsidiousMind/material-bliss-jekyll-theme)
+
