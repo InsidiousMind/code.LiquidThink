@@ -22,9 +22,11 @@
   - Javascript
   - Jekyll
   description: This blog where I post on just programming. Anything that i'm really doing, or am planning to do, is going on this site. The source code and theme of this site is my Material Bliss Theme
+
 - title: Material Bliss theme
   subtitle: Theme for Jekyll built with React.js
   homepage: https://github.com/InsidiousMind/material-bliss-jekyll-theme
+  cardImage: statc/img/logo_theme.jpg
   date: Dec 2016-Present
   tags:
   - Javascript
@@ -56,6 +58,7 @@
 - title: Contributing to libuv
   subtitle: Cross-platform asynchronous I/O
   homepage: https://github.com/libuv/libuv
+  cardImage: static/img/libuv.png
   date: Dec 2016-Present
   tags:
   - C
