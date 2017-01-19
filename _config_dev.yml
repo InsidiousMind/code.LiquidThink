@@ -1,4 +1,4 @@
-
+url: "http://test_domain.com:4000" 
 assets:
   compress:
     css: false
