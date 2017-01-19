@@ -7,16 +7,14 @@
 
 # Site settings
 react:
-  title: Material Bliss
+  title: Code.Liquid_Think
   name: Andrew Plaza
   menu_right_subtitle: Blogger || Computer Scientist
-  avatar: http://api.adorable.io/avatar/aplaza@liquidthink.net
+  avatar: http://www.gravatar.com/avatar/1018d9cd283965fc227390accb707132
   logo: static/img/logo.png
   email: aplaza@liquidthink.net
   description: > # this means to ignore newlines until "baseurl:"
-    Write an awesome description for your new site here. You can edit this
-    line in _config.yml. It will appear in your document head meta (for
-    Google search results) and in your feed.xml site description.
+    Welcome to Code.Liquid_Think. I post here on anything to do with programming and my current projects/thoughts on the programo-sphere
   baseurl: "" # the subpath of your site, e.g. /blog
   url: "http://code.liquidthink.net" # the base hostname & protocol for your site
   permalink: /posts/:title
@@ -30,23 +28,17 @@ react:
 
 
 
-title: Material Bliss
+title: Code.Liquid_Think
 name: Andrew Plaza
 menu_right_subtitle: Blogger || Computer Scientist
 avatar: http://api.adorable.io/avatar/aplaza@liquidthink.net
 logo: static/img/logo.png
 email: aplaza@liquidthink.net
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Welcome to Code.Liquid_Think. I post here on anything to do with programming and my current projects/thoughts on the programo-sphere
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://code.liquidthink.net" # the base hostname & protocol for your site
 permalink: /posts/:title
-
-twitter_username: liquid_think
-github_username: InsidiousMind
-
 
 # Build settings
 markdown: kramdown
