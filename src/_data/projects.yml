@@ -26,7 +26,7 @@
 - title: Material Bliss theme
   subtitle: Theme for Jekyll built with React.js
   homepage: https://github.com/InsidiousMind/material-bliss-jekyll-theme
-  cardImage: statc/img/logo_theme.jpg
+  cardImage: static/img/logo_theme.jpg
   date: Dec 2016-Present
   tags:
   - Javascript
