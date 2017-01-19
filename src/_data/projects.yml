@@ -37,7 +37,8 @@
   author_tag: ''
   avatar: true
 
-- title: Gomoku
+- cardImage: static/img/gomoku.svg.png
+  cardTitle: Gomoku
   subtitle: A Networked Client+Server Retro Game
   homepage: http://www.github.com/InsidiousMind/Gomoku
   date: Nov 2016
