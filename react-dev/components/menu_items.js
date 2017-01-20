@@ -8,6 +8,7 @@ import { SocialMediaList } from './social_media_list';
 
 import { getLink } from '../helpers';
 
+const isObject = (obj) => obj === Object(obj);
 const menuItems = { Home: '/', About: '/about/', Projects: '/projects/' };
 
 const styles = {
@@ -17,12 +18,14 @@ const styles = {
     paddingTop: 20,
   }
 };
-const getMenuItem = (name, path, url) => getLink(
+const getMenuItem = (name, path, url) => {
+getLink(
     <MenuItem>{name}</MenuItem>,
     name,
     url, //the site root url
     path
   );
+};
 
 const renderMenuItems = (url) => {
   const result = [];
