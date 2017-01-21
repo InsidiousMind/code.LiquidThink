@@ -1,4 +1,6 @@
 ---
+layout: "post"
+type: "post"
 title:  "Welcome to Jekyll! ( and React.js ;)"
 date:   2016-05-02 09:28:59 -0500
 categories: coding design

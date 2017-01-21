@@ -1,4 +1,6 @@
 ---
+layout: "post"
+type: "post"
 title:  "Sample Post!"
 date:   2017-01-04 09:28:59 -0500
 categories: coding Python

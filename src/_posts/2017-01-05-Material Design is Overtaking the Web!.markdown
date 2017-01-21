@@ -1,4 +1,6 @@
 ---
+layout: "post"
+type: "post"
 title:  "Material Design is Overtaking the Web"
 date:   2017-01-05 01:15:59 -0500
 categories: coding design

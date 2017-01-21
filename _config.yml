@@ -40,15 +40,15 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://code.liquidthink.net" # the base hostname & protocol for your site
 permalink: /posts/:title
 
-
 defaults:
   -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      type: "post"
+   scope:
+     path: ""
+     type: "posts"
+   values:
+     layout: "post"
+     type: "post"
+
 # Build settings
 markdown: kramdown
 
