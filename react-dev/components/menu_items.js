@@ -8,7 +8,6 @@ import { SocialMediaList } from './social_media_list';
 
 import { getLink } from '../helpers';
 
-const isObject = (obj) => obj === Object(obj);
 const menuItems = { Home: '/', About: '/about/', Projects: '/projects/' };
 
 const styles = {
