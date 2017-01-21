@@ -1,8 +1,6 @@
 ---
-layout: post
 title:  "Material Design is Overtaking the Web"
 date:   2017-01-05 01:15:59 -0500
-type: post
 categories: coding design
 tags: material design overtaking web craziness awesome theme hello world
 ---

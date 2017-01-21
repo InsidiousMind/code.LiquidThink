@@ -1,8 +1,6 @@
 ---
-layout: post
 title:  "Sample Post!"
 date:   2017-01-04 09:28:59 -0500
-type: post
 categories: coding Python
 tags: sample new hello
 ---
