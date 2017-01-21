@@ -17,14 +17,13 @@ const styles = {
     paddingTop: 20,
   }
 };
-const getMenuItem = (name, path, url) => {
-getLink(
+
+const getMenuItem = (name, path, url) => getLink(
     <MenuItem>{name}</MenuItem>,
     name,
     url, //the site root url
     path
-  );
-};
+);
 
 const renderMenuItems = (url) => {
   const result = [];
@@ -34,7 +33,7 @@ const renderMenuItems = (url) => {
   return result.map((item) => item);
 };
 
-export const MenuItems = props => (
+export const MenuItems = (props) => (
     <div>
       {renderMenuItems(props.config.url)}
       <Card>
