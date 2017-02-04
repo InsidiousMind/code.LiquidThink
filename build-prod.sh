@@ -1,5 +1,5 @@
 #!/bin/bash
-npm install &&
+#npm install &&
 #bundle install &&
 #bundle update &&
 npm run build &&
