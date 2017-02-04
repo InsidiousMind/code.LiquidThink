@@ -90,7 +90,7 @@
   homepage: https://github.com/YourNerdyJoe/leapduel
   cardImage: static/img/leapduel.jpg
   cardTitle: LeapDuel
-  cardSubtitle: Cardgame buitl with LeapMotion at hackPSU2016
+  cardSubtitle: Cardgame built with LeapMotion at hackPSU2016
   date: Nov 12, 2016
   tags:
   - C++
