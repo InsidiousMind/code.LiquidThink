@@ -20,7 +20,10 @@ class ProjectsIndex extends Component {
       return url;
     }
     else if (url.substring(0, 4) === '/src') {
-        return url.replace('/src', '/');
+      return url.replace('/src', '/');
+    }
+    else if(url.substring(0,3) === 'src') {
+      return url.replace('src', '/');
     }
     return `/${url}`;
   }
