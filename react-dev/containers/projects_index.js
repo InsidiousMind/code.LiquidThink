@@ -19,6 +19,9 @@ class ProjectsIndex extends Component {
     if(url.charAt(0) === '/') {
       return url;
     }
+    else if (url.substring(0, 4) === '/src') {
+        return url.replace('/src', '/');
+    }
     return `/${url}`;
   }
   getMedia = (project) => {
