@@ -2,9 +2,14 @@
 title: Material Design is Overtaking the Web
 date: '2017-01-05 06:15:59'
 categories:
-- coding design
+- coding
+- design
 tags:
-- material design overtaking web craziness awesome theme hello world
+- material design
+- overtaking web
+- awesome
+- theme
+- hello world
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempus, orci sodales vulputate blandit, augue neque aliquam dui, at vulputate nulla dolor nec tellus. Sed iaculis interdum est, in dignissim enim dapibus ac. Curabitur lobortis cursus ligula, a congue justo congue nsec. Ut cursus nibh quis augue vehicula sodales. Morbi vel accumsan est. Praesent dolor metus, gravida sed turpis vel, hendrerit imperdiet mi. In sagittis tempor massa eget finibus. Etiam faucibus tortor in pellentesque pulvinar. Praesent augue est, malesuada eu posuere in, sagittis sit amet erat. Sed at nisl purus. Sed non mattis nibh. Cras commodo ornare turpis sed sollicitudin. Pellentesque ornare fringilla risus nec scelerisque. Curabitur sed convallis ipsum.
 
