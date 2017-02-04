@@ -14,11 +14,18 @@ class ProjectsIndex extends Component {
   componentWillMount() {
     this.props.fetchProjects();
   }
+
+  checkURL = (url) => {
+    if(url.charAt(0) === '/') {
+      return url;
+    }
+    return `/${url}`;
+  }
   getMedia = (project) => {
       if (project.cardImage && !project.cardTitle) {
         return (
           <CardMedia>
-            <img role="presentation" src={`${this.props.config.url}/${project.cardImage}`} />
+            <img role="presentation" src={`${this.props.config.url}${checkURL(project.cardImage)}`} />
         </CardMedia >
         );
       } else if (project.cardImage && project.cardTitle) {
@@ -32,6 +39,7 @@ class ProjectsIndex extends Component {
       } //if those values don't exist dont return
       return;
   }
+
   getAuthorHeader = (project) => {
       if (project.author && project.author_tag && project.avatar) {
         return (
@@ -40,6 +48,7 @@ class ProjectsIndex extends Component {
       }
       return;
   }
+
   getProjectTitle = (project) => {
       if (project.title && project.subtitle) {
         return (
