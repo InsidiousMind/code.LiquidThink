@@ -25,7 +25,7 @@ class ProjectsIndex extends Component {
       if (project.cardImage && !project.cardTitle) {
         return (
           <CardMedia>
-            <img role="presentation" src={`${this.props.config.url}${checkURL(project.cardImage)}`} />
+            <img role="presentation" src={`${this.props.config.url}${this.checkURL(project.cardImage)}`} />
         </CardMedia >
         );
       } else if (project.cardImage && project.cardTitle) {
