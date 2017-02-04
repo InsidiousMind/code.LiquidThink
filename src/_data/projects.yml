@@ -2,16 +2,16 @@
 - title: Party Fair Chester
   subtitle: Local Business Landing Page
   homepage: http://partyfairchester.com
-  cardImage: "uploads/2017/02/04/partyfairchester.png"
+  cardImage: src/uploads/2017/02/04/partyfairchester.png
   date: '2016-08-01T00:00:00-04:00'
   tags: []
   description: Landing Page developed for the Party Fair Chester website. Designed
     in a poppy, fun, and unique manner serves as a reflection of the stores identity.
   cardTitle: ''
   cardSubtitle: ''
-  author: ''
-  author_tag: ''
-  avatar: false
+  author: Andrew Plaza
+  author_tag: Web Developer
+  avatar: true
 - title: Liquid Think
   subtitle: Rantings of a Nerdy Lunatic
   homepage: http://www.liquidthink.net
