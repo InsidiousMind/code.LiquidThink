@@ -10,20 +10,20 @@ react:
   title: Code.Liquid_Think
   name: Andrew Plaza
   menu_right_subtitle: Blogger || Computer Scientist
-  avatar: http://www.gravatar.com/avatar/1018d9cd283965fc227390accb707132
+  avatar: https://www.gravatar.com/avatar/1018d9cd283965fc227390accb707132
   logo: static/img/logo.png
   email: aplaza@liquidthink.net
   description: > # this means to ignore newlines until "baseurl:"
     Welcome to Code.Liquid_Think. I post here on anything to do with programming and my current projects/thoughts on the programo-sphere
   baseurl: "" # the subpath of your site, e.g. /blog
-  url: "http://code.liquidthink.net" # the base hostname & protocol for your site
+  url: "https://code.liquidthink.net" # the base hostname & protocol for your site
   permalink: /posts/:title
   social:
-    twitter: http://twitter.com/liquid_think
-    github: http://github.com/InsidiousMind
-    facebook: http://facebook.com/liquidthinknet
-    code: http://livecoding.tv/insidious #livecoding.tv handle
-    google-plus: http://plus.google.com/+LiquidthinkNet #make sure to include the '+'
+    twitter: https://twitter.com/liquid_think
+    github: https://github.com/InsidiousMind
+    facebook: https://facebook.com/liquidthinknet
+    code: https://livecoding.tv/insidious #livecoding.tv handle
+    google-plus: https://plus.google.com/+LiquidthinkNet #make sure to include the '+'
     rss: feed.xml
 
 
@@ -31,13 +31,13 @@ react:
 title: Code.Liquid_Think
 name: Andrew Plaza
 menu_right_subtitle: Blogger || Computer Scientist
-avatar: http://api.adorable.io/avatar/aplaza@liquidthink.net
+avatar: https://api.adorable.io/avatar/aplaza@liquidthink.net
 logo: static/img/logo.png
 email: aplaza@liquidthink.net
 description: > # this means to ignore newlines until "baseurl:"
   Welcome to Code.Liquid_Think. I post here on anything to do with programming and my current projects/thoughts on the programo-sphere
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://code.liquidthink.net" # the base hostname & protocol for your site
+url: "https://code.liquidthink.net" # the base hostname & protocol for your site
 permalink: /posts/:title
 
 defaults:
