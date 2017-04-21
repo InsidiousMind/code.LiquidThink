@@ -24,7 +24,6 @@ newPostFileName: "{year}-{month}-{day}-{title}{extension}"
 # front matter template
 frontMatter: """
 ---
-layout: <layout>
 title: "<title>"
 date: "<date>"
 author: "Andrew Plaza"
