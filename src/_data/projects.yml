@@ -1,30 +1,4 @@
 ---
-- title: Party Fair Chester
-  subtitle: Local Business Landing Page
-  homepage: http://partyfairchester.com
-  cardImage: src/uploads/2017/02/04/partyfairchester.png
-  date: '2016-08-01T00:00:00-04:00'
-  tags: []
-  description: Landing Page developed for the LucheLLC. Designed in a poppy, fun,
-    and unique manner serves as a reflection of the stores identity.
-  cardTitle: ''
-  cardSubtitle: ''
-  author: Andrew Plaza
-  author_tag: Web Developer
-  avatar: true
-- title: Liquid Think
-  subtitle: Rantings of a Nerdy Lunatic
-  homepage: http://www.liquidthink.net
-  cardImage: static/img/LQ_logo.png
-  date: 2013-2017
-  tags:
-  - blog
-  - personal
-  - general
-  - Rantings
-  - nerdy
-  description: A blog where I talk about everything from Lovecraft to new technology and programming. Not anything too technical here, that goes on code.liquid_think
-
 #- title: International Samaritan
 # subtitle: The Public Facing Website of an NGO
 # homepage: http://www.intsam.org
@@ -126,10 +100,9 @@
 - author: Andrew Plaza
   author_tag: Creative Initiative (Concept)
   avatar: true
+  title: Revolution
   homepage: https://github.com/RevolutionApp/Revolution
   cardImage: static/img/revolution_logo.png
-  cardTitle: Revolution
-  cardSubtitle: Connect with what matters
   date: TBA
   tags:
     - Javascript
@@ -155,3 +128,31 @@
   - HackPSU
   description: An awesome throw-back to Yugioh using the LeapMotion Controller, a
     modern twist on a retro piece of nostalgia we remembered from our childhoods.
+
+- title: Liquid Think
+  subtitle: Rantings of a Nerdy Lunatic
+  homepage: http://www.liquidthink.net
+  cardImage: static/img/LQ_logo.png
+  date: 2013-2017
+  tags:
+  - blog
+  - personal
+  - general
+  - Rantings
+  - nerdy
+  description: A blog where I talk about everything from Lovecraft to new technology and programming. Not anything too technical here, that goes on code.liquid_think
+
+- title: Party Fair Chester
+  subtitle: Local Business Landing Page
+  homepage: http://partyfairchester.com
+  cardImage: src/uploads/2017/02/04/partyfairchester.png
+  date: '2016-08-01T00:00:00-04:00'
+  tags: []
+  description: Landing Page developed for the LucheLLC. Designed in a poppy, fun,
+    and unique manner serves as a reflection of the stores identity.
+  cardTitle: ''
+  cardSubtitle: ''
+  author: Andrew Plaza
+  author_tag: Web Developer
+  avatar: true
+
