@@ -85,11 +85,10 @@
 
 - author: Andrew Plaza
   author_tag: Creative Initiative
+  title: SMPD
+  subtitle: Simple Music Player Daemon
   avatar: true
   homepage: https://github.com/InsidiousMind/smpd
-  cardImage: 
-  cardTitle: SMPD
-  cardSubtitle: Music Player Daemon
   date: April, 2017
   tags:
     - Rust
