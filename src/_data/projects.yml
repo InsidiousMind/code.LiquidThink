@@ -97,6 +97,48 @@
     chose to contribute to libuv, the library developed for Node.js. This facilitates
     my interest in Node.js and how it works on a deeper level, whilst also allowing
     me to improve upon my C programming skills and give back to the OSS community.
+
+- title: Contributing to Redox OS
+  subtitle: Your Next[Gen] OS
+  homepage: https://github.com/redox-os/kernel
+  cardImage: static/img/redox.png
+  date: March 2017-Present
+  tags:
+  - Rust
+  - OS
+  - open-source
+  description: An OS I have been faithfully following since it's inception 2 years ago. Equipped with what I learned from an OS class and my own learning ventures, I began contributing and conversing actively with the community in March 2017
+
+- author: Andrew Plaza
+  author_tag: Creative Initiative
+  avatar: true
+  homepage: https://github.com/InsidiousMind/smpd
+  cardImage: 
+  cardTitle: SMPD
+  cardSubtitle: Music Player Daemon
+  date: April, 2017
+  tags:
+    - Rust
+    - Open-source
+    - MusicPlayerDaemon
+  description: An Open Source Project being designed as a drop-in replacement for MPD except in Rust. The first thing to be completed for this is SNES_SPC emulation. Why? Because SNES music is fun.
+
+- author: Andrew Plaza
+  author_tag: Creative Initiative (Concept)
+  avatar: true
+  homepage: https://github.com/RevolutionApp/Revolution
+  cardImage: static/img/revolution_logo.png
+  cardTitle: Revolution
+  cardSubtitle: Connect with what matters
+  date: TBA
+  tags:
+    - Javascript
+    - Ethereum
+    - Prototype
+    - Concept
+    - react-native
+  description: A concept for a decentralized mobile Application built with React Native. The prototype is in it's design/concept/protyping phase. This will be an application to connect with local protests, communicate with activists and organizations in a totally anonymous, encrypted manner.
+
 - author: Andrew Plaza, Joe LoManto, Ryan Corcoran
   author_tag: Hackathon Group Project
   avatar: true
