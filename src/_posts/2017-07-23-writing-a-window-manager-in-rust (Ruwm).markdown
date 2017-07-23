@@ -1,4 +1,5 @@
 ---
+layout: post
 title:  "Writing a Window Manager in Rust (Ruwm)"
 date:   2017-07-23 11:30:59 -0500
 categories: coding linux
