@@ -6,7 +6,7 @@ categories: coding linux
 tags: coding linux X11 XKB XCB rust wm i3
 ---
 
-So I decided to write a window manager. Also this is my first post, a whole 6 (ish?) months since i actually created this website. My three test posts have been sitting pretty this entire time. At least the Projects section was updated semi-regularly.
+So I decided to write a window manager. Also this is my first post, a whole 6 (ish?) months since I actually created this website. My three test posts have been sitting pretty this entire time. At least the Projects section was updated semi-regularly.
 
 The one project not in the 'Projects' section, however, is this [Window Manager](https://github.com/InsidiousMind/Ruwm). A side-gig I've been tinkering with for the past few weeks. It's a Window Manager written in Rust, using the [rust xcb library](https://crates.io/crates/xcb) bindings, and a few other interesting code-bases (like [rustpeg](https://crates.io/crates/peg) and [xkb](https://crates.io/crates/xkb)). 
 
@@ -16,7 +16,7 @@ If you came to this post and don't know what a window manager is, let me tell yo
 
 ![My Setup](/uploads/2017/07/23/my_rice.png)
 
-Tinkering is something of a hobby for me, so a good window manager on a good linux distribution is essential. All a WM is a program which communicates with X11 through (usually) the xcb or xlib libraries, and 'manages' your windows. Manage, in this context at least, means tiling, which is a possible layout of windows. Looking at the above picture, you may notice that the windows are arranged in a very specific way. They're in their own boxes, and together they look like tiles. This is a style of WM's known as 'tiling' and it's done in such a way as to maximize screen real-estate. 
+Tinkering is something of a hobby for me, so a good window manager on a good linux distribution is essential. All a WM  does is communicate with X11 through (usually) the xcb or xlib libraries, and 'manages' your windows. Manage, in this context at least, means tiling, which is a possible layout of windows. Looking at the above picture, you may notice that the windows are arranged in a very specific way. They are in their own boxes, and together they look like tiles. This is a style of WM's known as 'tiling' and it's done in such a way as to maximize screen real-estate. 
 
 A more traditional 'Desktop Environment' like KDE, Gnome, or even Microsoft Windows doesn't do this without any additional add-ons. Those environments prefer a 'floating style' as opposed to the 'tiled' style. This decision was made probably because it's more natural for an average person to move windows around, resize them, and generally use their environment with ease. Tiling Window Managers, on the other hand, are made to be as lightweight and efficient as possible. Some are made in less than 1000 lines of code, (XMonad, dwm, and even i3 are quite small programs). They are generally used by people who value function over ease-of-use. However, this does not mean they can't look amazing (a look at [unixporn](http://reddit.com/r/unixporn) is proof). 
 
@@ -28,7 +28,7 @@ Don't get me wrong, there are tons of great Window Managers and Desktop environm
 
 ### HiDPI Support
 
-In recent years, Desktop Environments like Gnome and KDE have come around to support more and more screens with HiDPI monitors. This means screens with a very dense pixel-to-screen-size ratio. My laptop, for instance, has a screen resolution in the realm of 3200x1920px, with a screen size of 13". That's alot of DPI! (Density Per Inch). Many window managers like i3, dwm, and XMonad however, lack support for these hiDPI monitors. The user is forced to spend hours configuring apps, terminals, and programs to look OK with their computer, even if the programs themselves already support HiDPI. This is because much of the environment is managed by X11, and pixel densities/ratios have to be manually set in order to the program to understand that this screen is a HiDPI monitor. My goal with Ruwm (A combination of Rust and Window Manager) is to remove this hastle of setting up an environment for a HiDPI screen.
+In recent years, Desktop Environments like Gnome and KDE have come around to support more and more screens with HiDPI monitors. This means screens with a very dense pixel-to-screen-size ratio. My laptop, for instance, has a screen resolution in the realm of 3200x1920px, with a screen size of 13". That's alot of DPI! (Density Per Inch). Many window managers like i3, dwm, and XMonad however, lack support for these HiDPI monitors. The user is forced to spend hours configuring apps, terminals, and programs to look OK with their computer, even if the programs themselves already support HiDPI. This is because much of the environment is managed by X11, and pixel densities/ratios have to be manually set in order to the program to understand that this screen is a HiDPI monitor. My goal with Ruwm (A combination of Rust and Window Manager) is to remove this hastle of setting up an environment for a HiDPI screen.
 
 ### Touch Support
 
