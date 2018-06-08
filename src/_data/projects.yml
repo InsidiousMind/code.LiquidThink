@@ -1,15 +1,16 @@
 ---
-#- title: International Samaritan
+
+# - title: International Samaritan
 # subtitle: The Public Facing Website of an NGO
 # homepage: http://www.intsam.org
 # cardImage: static/img/LQ_logo.png
 # date: 2013-2017
 # tags:
-# - blog
-# - personal
-# - general
-# - Rantings
-# - nerdy
+#- blog
+#- personal
+#- general
+#- Rantings
+#- nerdy
 # description: A blog where I talk about everything from Lovecraft to new technology and programming. Not anything too technical here, that goes on code.liquid_think
 
 - homepage: https://github.com/ethdbg/ethdbg
@@ -24,6 +25,7 @@
   - Debugging
   - VSCode
   description: Debug Tools to be used with the Ethereum Blockchain and help developers create Decentralized Applications.
+
 - homepage: https://github.com/ScrantonHacks/YADQL
   title: YADQL (Prototype) 
   date: Jan 2018-Present
@@ -33,6 +35,7 @@
   - Query Languages
   - Blockchain
   description: YADQL - Yet Another Database Query Language is a tool with which to use decentralized technologies such as Ethereum or IPFS, and treat it just like a more familiar Database system such as SQL.
+
 - homepage: http://emotifuck.rs
   date: October 2017
   tags:
