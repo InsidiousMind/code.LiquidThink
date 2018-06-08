@@ -1,20 +1,23 @@
 ---
-
-# - title: International Samaritan
-# subtitle: The Public Facing Website of an NGO
-# homepage: http://www.intsam.org
-# cardImage: static/img/LQ_logo.png
-# date: 2013-2017
-# tags:
-#- blog
-#- personal
-#- general
-#- Rantings
-#- nerdy
-# description: A blog where I talk about everything from Lovecraft to new technology and programming. Not anything too technical here, that goes on code.liquid_think
+ 
+- homepage: http://www.intsam.org
+  title: International Samaritan
+  cardImage: static/img/intsam.png
+  subtitle: Built a website, freelance, for a non-profit
+  cardTitle: International Samaritan
+  date: 2013-2017
+  tags:
+    - blog
+    - personal
+    - general
+    - Rantings
+    - nerdy
+  description: A blog where I talk about everything from Lovecraft to new technology and programming. Not anything too technical here, that goes on code.liquid_think
 
 - homepage: https://github.com/ethdbg/ethdbg
   title: Ethereum Debug Tools
+  cardImage: static/img/ethereum.png
+  cardTitle: ETHDBG
   date: Jan 2018-Present
   tags:
   - project
@@ -27,8 +30,10 @@
   description: Debug Tools to be used with the Ethereum Blockchain and help developers create Decentralized Applications.
 
 - homepage: https://github.com/ScrantonHacks/YADQL
+  cardImage: static/img/yadql.png
+  cardTitle: YADQL
   title: YADQL (Prototype) 
-  date: Jan 2018-Present
+  date: Jan 2018-March 2018
   tags:
   - project
   - Database
@@ -37,15 +42,15 @@
   description: YADQL - Yet Another Database Query Language is a tool with which to use decentralized technologies such as Ethereum or IPFS, and treat it just like a more familiar Database system such as SQL.
 
 - homepage: http://emotifuck.rs
+  cardImage: static/img/brainfuck.png
+  cardTitle: Emotif*ck
   date: October 2017
   tags:
   - project
   - Rust
   - Esoteric
   - Fun
-  description: This blog where I post on just programming. Anything that i'm really
-    doing, or am planning to do, is going on this site. The source code and theme
-    of this site is my Material Bliss Theme
+  description: An esoteric programming language based off of brainfuck
 
 - homepage: http://www.github.com/InsidiousMind/code.LiquidThink
   cardImage: static/img/code-liquidthink.png
