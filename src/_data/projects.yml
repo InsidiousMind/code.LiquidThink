@@ -1,5 +1,18 @@
 ---
- 
+- homepage: http://scrantonhacks.com
+  title: ScrantonHacks
+  cardImage: static/img/scrantonhacks.svg
+  cardTitle: ScrantonHacks
+  subtitle: Website for Hackathon Club at Scranton
+  date: Sept 2017
+  tags:
+    - University
+    - Club
+    - Hackathon
+    - React
+    - Javascript
+  description: A website built with React and Gatsby for the University of Scranton Hackathon club.
+
 - homepage: http://www.intsam.org
   title: International Samaritan
   cardImage: static/img/intsam.png
@@ -12,7 +25,7 @@
     - general
     - Rantings
     - nerdy
-  description: A blog where I talk about everything from Lovecraft to new technology and programming. Not anything too technical here, that goes on code.liquid_think
+  description: International Samaritan is a Non-Profit NGO which serves the most impoverished peoples of the world. They needed a website refresh, so I stepped up to the occasion.
 
 - homepage: https://github.com/ethdbg/ethdbg
   title: Ethereum Debug Tools
